@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书小工具检查与打包"
+  short_description: "检查启动、按钮和完整流程，验证原生保存异常并打包可追溯的离线 ZIP"
+  default_prompt: "使用 $xhs-minitool-release 检查当前小红书小工具，修复确认缺陷，保留已有修复，按任务范围打包并验证最终 ZIP，交付覆盖范围与未测项。"

@@ -1,0 +1,7 @@
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+body{margin:0;padding:100px 24px 48px;padding-top:calc(100px + env(safe-area-inset-top,0px));background:#f7f6f0;color:#263b32;font:18px/1.6 system-ui,sans-serif}
+main,section{max-width:520px;margin:auto}
+button,input{font:inherit;min-height:48px;border:1px solid #799b89;border-radius:8px;padding:8px 16px}
+button{display:block;background:#e0eee3;color:#183f2a;margin:16px 0;cursor:pointer}
+label{display:block;margin:12px 0}input{display:block;width:100%;background:white}

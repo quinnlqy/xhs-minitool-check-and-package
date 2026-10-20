@@ -1,0 +1,11 @@
+{
+  "name": "xhs-minitool-check-and-package",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Community skill and tools for checking and packaging offline XHS minitools",
+  "license": "MIT",
+  "engines": {"node": ">=20.19"},
+  "scripts": {"test": "node tests/run-selftest.mjs"},
+  "devDependencies": {"@playwright/test": "1.63.0"}
+}

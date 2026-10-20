@@ -1,0 +1,15 @@
+{
+  "ready": "#menu",
+  "steps": [
+    {"tap":"#start","visible":"#workspace","hidden":"#menu"},
+    {"fill":{"selector":"#first","value":"2"}},
+    {"fill":{"selector":"#second","value":"3"}},
+    {"tap":"#calculate","text":{"selector":"#result","contains":"结果：5"}},
+    {"tap":"#back","visible":"#menu","hidden":"#workspace"}
+  ],
+  "viewports": [
+    {"width":390,"height":844,"safeArea":{"top":60,"bottom":34},"nativeButtons":[{"top":60,"right":8,"width":44,"height":44}]},
+    {"width":360,"height":640},
+    {"width":844,"height":390}
+  ]
+}
